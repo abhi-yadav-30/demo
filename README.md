@@ -2,15 +2,26 @@
 # Features of drone
 R C Controlled : 
 
-1. Pitch 
-2. Yaw
-3. Throttle
-4. Altitude hold
-5. Geographical fence
+1. Throttle
+3. Pitch 
+4. Yaw
+5. Altitude hold
+6. Geographical fence
 
 <br>
 
-> **1. Pitch**
+> **1. Throttle**
+
+<br>
+
+Throttle is just a upward (or downward) movment of quadcopter which can be achived by increasing (or decreasing) all the propeller speeds by the same amount. It leads to a vertical force with respect to body-fixed frame which raises or lowers the quad-rotor.
+
+<br>
+
+<img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/Drone_cove-page.png" height="250">
+
+<br>
+> **2. Pitch**
 
 <br>
 
@@ -22,7 +33,7 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 
 <br>
 
-> **2. Yaw**
+> **3. Yaw**
 
 <br>
 
@@ -31,19 +42,6 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 <br>
 
 ![yaw](https://images.squarespace-cdn.com/content/v1/5b1566faf407b4c2d4edc8e2/1528337146183-2JHYTR3POC14B5FQGWUT/image-asset.png?format=750w)
-
-<br>
-
-
-> **3. Throttle**
-
-<br>
-
-Throttle is just a upward (or downward) movment of quadcopter which can be achived by increasing (or decreasing) all the propeller speeds by the same amount. It leads to a vertical force with respect to body-fixed frame which raises or lowers the quad-rotor.
-
-<br>
-
-<img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/Drone_cove-page.png" height="250">
 
 <br>
 
