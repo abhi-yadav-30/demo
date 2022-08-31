@@ -43,9 +43,8 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 
 
 '''
-python
-
  t=input()
+ 
 '''
 
 <br>
