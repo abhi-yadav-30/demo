@@ -41,6 +41,13 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 
 “yaw” refers to the direction the front of your drone (or even a plane or car) is facing when rotating either clockwise or counterclockwise (or left and right if you prefer) on its vertical axis.
 
+
+'''
+python
+
+ t=input()
+'''
+
 <br>
 
 ![yaw](https://images.squarespace-cdn.com/content/v1/5b1566faf407b4c2d4edc8e2/1528337146183-2JHYTR3POC14B5FQGWUT/image-asset.png?format=750w)
