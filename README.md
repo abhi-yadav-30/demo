@@ -36,9 +36,9 @@ while(1):
  covert_to_degree( get_from_gyroscope() )
  current=get_current()
  error=check_error(expt,current)
-if( get_distance(expt,current) <= 0 )
+ if( get_distance(expt,current) <= 0 )
        break
-  altitude_hold()
+ altitude_hold()
   
 ```
 
