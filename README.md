@@ -16,6 +16,33 @@ R C Controlled :
 <br>
 
 Throttle is just a upward (or downward) movment of quadcopter which can be achived by increasing (or decreasing) all the propeller speeds by the same amount. It leads to a vertical force with respect to body-fixed frame which raises or lowers the quad-rotor.
+```
+ arm_and_takeoff(aTargetAltitude): #Arms vehicle and fly to aTargetAltitude.
+    # Don't let the user try to arm until autopilot is ready
+ print("Basic pre-arm checks")
+ while not vehicle.is_armable:
+  print(" Waiting for vehicle to initialise...")
+  time.sleep(1)
+ print("Arming motors")
+    # Copter should arm in GUIDED mode
+ vehicle.mode = VehicleMode("GUIDED")
+ vehicle.armed = True
+ 
+ while not vehicle.armed:      
+   print(" Waiting for arming...")
+   time.sleep(1)
+
+ print("Taking off!")
+   vehicle.simple_takeoff(aTargetAltitude) # Take off to target altitude
+
+ while True:
+   print(" Altitude: ", vehicle.location.global_relative_frame.alt)      
+      if vehicle.location.global_relative_frame.alt>=aTargetAltitude*0.95: #Trigger just below target alt.
+         print("Reached target altitude")
+         break
+   time.sleep(1)
+
+```
 
 <br>
 
@@ -57,10 +84,10 @@ while(1):
 
 ```
 while(1):
-  expt=get_expected_location() 
-  current=get_from_magnetometer()
+ expt=get_expected_location() 
+ current=get_from_magnetometer()
  error=check_error(expt,current)
-  if(error==0):
+ if(error==0):
     break
  rotate( get_fact_PID_controller(error) )
 
