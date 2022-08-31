@@ -3,9 +3,10 @@
 R C Controlled : 
 
 1. Throttle
-3. Pitch 
-4. Yaw
-5. Altitude hold
+2. Pitch 
+3. Yaw
+4. Altitude hold
+5. Hover
 6. Geographical fence
 
 <br>
@@ -53,7 +54,13 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
  
  <br>
  
- > **Geographical fence**
+ > **5. Hover**
+
+<br>
+
+two of a drone's four rotors move clockwise, while the other two move counterclockwise, ensuring that the sideways momentum of the drone remains balanced.
+
+ > **6. Geographical fence**
 
 <br>
 
