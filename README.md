@@ -41,5 +41,5 @@ Throttle is just a upward (or downward) movment of quadcopter which can be achiv
 
 This is the use of GPS to create a virtual boundary that triggers a predetermined response when the drone flies into — or out of — a particular area. If the drone flies towards a “fenced” or restricted area, it will stop mid-flight. If you try to take off from a restricted area, the drone will not start up at all. Geofences can be placed to keep drones out of certain fields, from flying over a particular building, and prevent them from entering into “no fly zones.”
 
-<img src="https://dronebelow.com/wp-content/uploads/2018/06/3DR-geofencing.jpeg" height="8" widht="8">
+<img src="https://dronebelow.com/wp-content/uploads/2018/06/3DR-geofencing.jpeg" height="100" widht="100">
 
