@@ -38,8 +38,11 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 > **3. Throttle**
 
 <br>
+
 Throttle is just a upward (or downward) movment of quadcopter which can be achived by increasing (or decreasing) all the propeller speeds by the same amount. It leads to a vertical force with respect to body-fixed frame which raises or lowers the quad-rotor.
+
 <br>
+
 <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/Drone_cove-page.png" height="250">
 
 <br>
