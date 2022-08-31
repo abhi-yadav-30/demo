@@ -20,7 +20,10 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 
 
 ![yaw](https://images.squarespace-cdn.com/content/v1/5b1566faf407b4c2d4edc8e2/1528337146183-2JHYTR3POC14B5FQGWUT/image-asset.png?format=750w)
+
 <br>
+
+
 > **3. Throttle**
 
 <br>
@@ -29,12 +32,14 @@ Throttle is just a upward (or downward) movment of quadcopter which can be achiv
 <img src="https://cfdflowengineering.com/wp-content/uploads/2020/09/Drone_cove-page.png" height="250">
 
 <br>
+
 > **4. Altitude hold**
 
 <br>
  the throttle is automatically controlled to maintain the current altitude.
  
  <br>
+ 
  > **Geographical fence**
 
 <br>
