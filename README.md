@@ -43,7 +43,13 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 
 
 ```
-    t=input()
+#By default the yaw of the vehicle will follow the direction of travel. After setting 
+   the yaw using this function there is no way to return to the default yaw "follow direction 
+    of travel"
+    
+  condition_yaw(heading, relative=False):
+  
+
  
 ```
 
