@@ -60,6 +60,10 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 
 two of a drone's four rotors move clockwise, while the other two move counterclockwise, ensuring that the sideways momentum of the drone remains balanced.
 
+<img src="https://hobbyhenry.com/wp-content/uploads/2020/03/Drone-Wont-Stay-Still.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1" height="250">
+
+<br>
+
  > **6. Geographical fence**
 
 <br>
