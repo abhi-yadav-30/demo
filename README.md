@@ -29,6 +29,19 @@ Throttle is just a upward (or downward) movment of quadcopter which can be achiv
 
 The second dimension an aircraft can move in is called “pitch.” The pitch means the drone tilts upwards or downwards based on its orientation and the location of its nose. A downwards tilt will move the aircraft (drone in this case) in a forwards motion, while an upwards tilt will move it backwards.
 
+
+```
+while(1):
+ expt=get_expected_location_meter()
+ covert_to_degree( get_from_gyroscope() )
+ current=get_current()
+ error=check_error(expt,current)
+if( get_distance(expt,current) <= 0 )
+       break
+  altitude_hold()
+  
+```
+
 <br>
 
 ![pitch](https://images.squarespace-cdn.com/content/v1/5b1566faf407b4c2d4edc8e2/1528337221637-4YYWEN30OKV2OSGBIB4H/Pitch.png?format=750w)
@@ -44,9 +57,9 @@ The second dimension an aircraft can move in is called “pitch.” The pitch me
 
 ```
 while(1):
-  get_expected_location() 
-  get_from_sensor()
- error=check_error()
+  expt=get_expected_location() 
+  current=get_from_magnetometer()
+ error=check_error(expt,current)
   if(error==0):
     break
  rotate( get_fact_PID_controller(error) )
