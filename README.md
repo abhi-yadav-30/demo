@@ -32,7 +32,9 @@ Throttle is just a upward (or downward) movment of quadcopter which can be achiv
 
 > **4. Altitude hold**
 
+
  the throttle is automatically controlled to maintain the current altitude.
+ 
  
  > **Geographical fence**
 
